@@ -1,20 +1,12 @@
 class Employee:
-    def __init__(self,empId = None, name =  None, salary = None):
+    def __init__(self,empId,name,salary):
         self.empId = empId
         self.name = name
         self.salary = salary
 
-    def setEmpId(self,empId):
-        self.empId = empId
-    def setName(self,name):
-        self.name = name
-    def setSalary(self,salary):
-        self.salary = salary
+    def getEmpDetails(self):
+        print("id",self.empId)
+        print("name",self.name)
+        print("salary",self.salary)
 
-    def getEmpId(self):
-        return self.empId
-    def getName(self):
-        return self.name
-    def getSalary(self):
-        return self.salary
-        
+
