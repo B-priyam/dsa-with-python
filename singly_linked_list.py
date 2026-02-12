@@ -71,15 +71,19 @@ class Singly_Linked_List:
 
 
 sll = Singly_Linked_List()
-# sll.insert_at_start(40)
-# sll.insert_at_start(30)
-# sll.insert_at_start(20)
+sll.insert_at_start(40)
+sll.insert_at_start(30)
+sll.insert_at_start(20)
 sll.insert_at_last(50)
 sll.insert_at_last(60)
 sll.insert_at_start(10)
-# sll.insert_after_data(40,45)
+sll.insert_after_data(70,45)
 sll.delete_start()
 sll.delete_start()
 sll.delete_last()
+sll.delete_last()
+sll.delete_start()
+sll.insert_at_start(30)
+sll.insert_at_last(50)
 sll.print_sll()
 
